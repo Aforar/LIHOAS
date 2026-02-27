@@ -23,12 +23,10 @@ export const HeroContent = () => {
     return (
         <section className="relative h-screen w-full overflow-hidden bg-green-950">
             {/* 3D Background */}
-            <div className="absolute inset-0 z-0 opactiy-90">
+            <div className="absolute inset-0 z-0 opacity-90 pointer-events-none overflow-hidden">
                 <Suspense fallback={<div className="h-full w-full bg-green-950" />}>
                     <ShaderGradientCanvas
                         style={{ width: "100%", height: "100%", position: "absolute", top: 0, left: 0 }}
-                        pointerEvents="none"
-                        pixelDensity={1}
                     >
                         <ShaderGradient
                             animate="on"
@@ -47,7 +45,7 @@ export const HeroContent = () => {
                             cameraZoom={8}
                             brightness={0.8}
                             envPreset="city"
-                            grain="on"
+                            grain="off"
                         />
                     </ShaderGradientCanvas>
                 </Suspense>

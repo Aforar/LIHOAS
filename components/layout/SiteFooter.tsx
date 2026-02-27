@@ -35,8 +35,8 @@ export const SiteFooter = () => {
                         <ul className="space-y-2 text-sm text-text-muted">
                             <li>📍 Agadir, Morocco</li>
                             <li>
-                                <a href="mailto:aforar.business@gmail.com" className="hover:text-white transition-colors">
-                                    aforar.business@gmail.com
+                                <a href="mailto:contact@lihoas-hotel.com" className="hover:text-white transition-colors">
+                                    contact@lihoas-hotel.com
                                 </a>
                             </li>
                         </ul>

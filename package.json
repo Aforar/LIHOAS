@@ -2,6 +2,16 @@
   "name": "hotel-g",
   "version": "0.1.0",
   "private": true,
+  "description": "LIHOAS — A luxury hotel platform in Agadir, Morocco.",
+  "author": {
+    "name": "Aforar",
+    "email": "aforar.business@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Abdelmalek Mazouzi"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

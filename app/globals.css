@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-950: #0a0f0d;
+  --color-green-900: #0f3b12;
+  --color-neon: #25ff0a;
+  --color-emerald-light: #9de092;
+  --color-text-main: #ffffff;
+  --color-text-muted: #a1a1aa;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+  }
+  body {
+    @apply bg-green-950 text-text-main font-sans overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}

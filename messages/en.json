@@ -1,0 +1,130 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "about": "About",
+        "stays": "Stays",
+        "contact": "Contact",
+        "booking": "Booking",
+        "language": "English"
+    },
+    "Hero": {
+        "headline": "Luxury stay <br /> experience at <br />",
+        "subheadline": "Discover comfort, elegance, and unforgettable moments in the heart of Agadir.",
+        "bookNow": "Book Now",
+        "explore": "Explore Stays"
+    },
+    "Metrics": {
+        "beach": "5 min walk to the Beach",
+        "spa": "Spa & Wellness Center",
+        "dining": "Fine Dining Restaurant",
+        "concierge": "24/7 Concierge"
+    },
+    "Location": {
+        "subtitle": "Location",
+        "title": "The heart of Agadir,<br />at your doorstep.",
+        "desc": "Perfectly situated steps from the beach with breathtaking views of the Atlantic Ocean and the Agadir Kasbah.",
+        "m1_val": "5m",
+        "m1_lbl": "walk to the Beach",
+        "m2_val": "10m",
+        "m2_lbl": "from City Center",
+        "m3_val": "20m",
+        "m3_lbl": "from Int'l Airport"
+    },
+    "Concept": {
+        "subtitle": "About LIHOAS",
+        "title": "Where comfort meets <span class='text-emerald-light italic'>Agadir's</span> natural beauty.",
+        "p1": "LIHOAS is a premium luxury hotel nestled in the heart of Agadir. Our architecture seamlessly integrates modern design with the timeless warmth of Moroccan hospitality.",
+        "p2": "Every detail — from our sun-drenched pools to our ocean-view suites — has been crafted to deliver an unforgettable experience for every guest.",
+        "card_title": "Premium Experience",
+        "card_desc": "Luxury meets Moroccan elegance."
+    },
+    "Amenities": {
+        "subtitle": "Hotel Amenities",
+        "title": "Everything you need for a perfect stay.",
+        "a1_title": "Ocean-View Suites",
+        "a1_desc": "Wake up to panoramic views of the Atlantic from your private balcony.",
+        "a2_title": "Outdoor Pools",
+        "a2_desc": "Three heated pools surrounded by lush palms and ocean breezes.",
+        "a3_title": "Fine Dining",
+        "a3_desc": "Savor Moroccan and international cuisine at our rooftop restaurant.",
+        "a4_title": "Spa & Wellness",
+        "a4_desc": "Full Hammam, massage rooms, and wellness therapies to restore your body."
+    },
+    "CTA": {
+        "title": "Your perfect escape<br />awaits at <span class='text-emerald-light italic'>LIHOAS</span>.",
+        "desc": "Reserve your stay today and experience the best of Agadir — from our luxurious rooms to the pristine Atlantic beach.",
+        "button": "Book Your Stay"
+    },
+    "About": {
+        "intro_subtitle": "Introduction",
+        "intro_title": "Welcome to <span class='text-emerald-light'>LIHOAS</span>",
+        "intro_desc": "Presenting LIHOAS as a premium hotel in Agadir offering world-class comfort, modern architectural design, and exceptional personalized service. Experience a luxury stay like never before.",
+        "exp_subtitle": "Our Experience",
+        "exp_title": "Redefining Hospitality in Agadir",
+        "e1_title": "Elegant Rooms",
+        "e1_desc": "Designed with modern aesthetics and premium comfort in mind.",
+        "e2_title": "Relaxing Atmosphere",
+        "e2_desc": "A tranquil oasis to unwind and recharge amidst the city.",
+        "e3_title": "Personalized Service",
+        "e3_desc": "Our dedicated staff ensuring your every need is met seamlessly.",
+        "e4_title": "Ideal Location",
+        "e4_desc": "Situated perfectly in Agadir for exploring the best of the city.",
+        "why_title": "Why Choose Us",
+        "w1": "Prime location in Agadir",
+        "w2": "Modern and fully equipped rooms",
+        "w3": "24/7 reception",
+        "w4": "Free Wi-Fi",
+        "w5": "Breakfast included"
+    },
+    "LocalAttractions": {
+        "subtitle": "Explore Agadir",
+        "title": "Discover the City Beyond Our Doors",
+        "desc": "From ancient hilltop ruins to golden beaches and vibrant souks — Agadir is full of unforgettable experiences waiting for you.",
+        "p1_name": "Agadir Beach",
+        "p1_desc": "One of Morocco's most iconic beaches — 10km of golden sand, warm Atlantic waters and beach clubs.",
+        "p2_name": "Agadir Kasbah (Oufella)",
+        "p2_desc": "A hilltop fortress ruins from 1540 offering stunning panoramic views over the city and ocean.",
+        "p3_name": "Souk El Had",
+        "p3_desc": "The largest market in Morocco. A sensory journey through spices, crafts, and fresh local produce.",
+        "p4_name": "Valley of the Birds",
+        "p4_desc": "A charming urban park home to exotic birds and lush gardens — a tranquil escape in the heart of the city.",
+        "p5_name": "Crocoparc",
+        "p5_desc": "A unique Moroccan garden attraction with over 300 crocodiles and exotic tropical plants.",
+        "p6_name": "Marina Agadir",
+        "p6_desc": "A stylish waterfront promenade with restaurants, boutiques, and stunning views of the harbour."
+    },
+    "Stays": {
+        "subtitle": "Accommodations",
+        "title": "Discover Your Retreat",
+        "desc": "Choose from our selection of meticulously designed rooms, each offering breathtaking views and everything you need for an unforgettable stay in Agadir.",
+        "r1_title": "Superior Suite",
+        "r1_desc": "The pinnacle of luxury. Features a private terrace, king-sized bed, and panoramic views of the Atlantic Ocean and the Agadir Kasbah.",
+        "r2_title": "Deluxe Room",
+        "r2_desc": "Spacious and bright, equipped with premium amenities and a stunning ocean-facing balcony overlooking the Agadir coastline.",
+        "r3_title": "Standard Room",
+        "r3_desc": "A comfortable and elegantly designed retreat — the ideal base for discovering the best that Agadir has to offer.",
+        "per_night": "/ night",
+        "book_now": "Book Now"
+    },
+    "Booking": {
+        "title": "Book Your Stay",
+        "subtitle": "Reserve your luxury experience at LIHOAS Agadir.",
+        "check_in": "Check-in",
+        "check_out": "Check-out",
+        "guests": "Guests",
+        "guest_single": "Guest",
+        "full_name": "Full Name",
+        "email": "Email",
+        "placeholder_name": "John Doe",
+        "placeholder_email": "john@example.com",
+        "submit": "Confirm Booking",
+        "success_title": "Booking Confirmed",
+        "success_desc": "Thank you, {name}. We look forward to welcoming you to LIHOAS.",
+        "err_in": "Check-in date is required",
+        "err_out": "Check-out date is required",
+        "err_out_before_in": "Check-out must be after check-in",
+        "err_name": "Full Name is required",
+        "err_email": "Email is required",
+        "err_email_invalid": "Invalid email address"
+    }
+}

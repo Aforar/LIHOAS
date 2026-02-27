@@ -1,0 +1,130 @@
+{
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "stays": "Séjours",
+        "contact": "Contact",
+        "booking": "Réservez",
+        "language": "Français"
+    },
+    "Hero": {
+        "headline": "Expérience de séjour de luxe <br /> chez <br />",
+        "subheadline": "Découvrez le confort, l'élégance et des moments inoubliables au cœur d'Agadir.",
+        "bookNow": "Réserver",
+        "explore": "Explorer"
+    },
+    "Metrics": {
+        "beach": "À 5 min à pied de la plage",
+        "spa": "Centre de bien-être & Spa",
+        "dining": "Restaurant gastronomique",
+        "concierge": "Concierge 24/7"
+    },
+    "Location": {
+        "subtitle": "Emplacement",
+        "title": "Le cœur d'Agadir,<br />à votre porte.",
+        "desc": "Idéalement situé à quelques pas de la plage avec une vue imprenable sur l'océan Atlantique et la Kasbah d'Agadir.",
+        "m1_val": "5m",
+        "m1_lbl": "à pied de la plage",
+        "m2_val": "10m",
+        "m2_lbl": "du centre-ville",
+        "m3_val": "20m",
+        "m3_lbl": "de l'aéroport intl."
+    },
+    "Concept": {
+        "subtitle": "À propos de LIHOAS",
+        "title": "Où le confort rencontre la beauté naturelle <span class='text-emerald-light italic'>d'Agadir</span>.",
+        "p1": "LIHOAS est un hôtel de luxe de premier plan niché au cœur d'Agadir. Notre architecture intègre parfaitement un design moderne avec la chaleur intemporelle de l'hospitalité marocaine.",
+        "p2": "Chaque détail — de nos piscines baignées de soleil à nos suites avec vue sur l'océan — a été conçu pour offrir une expérience inoubliable à chaque client.",
+        "card_title": "Expérience Premium",
+        "card_desc": "Le luxe rencontre l'élégance marocaine."
+    },
+    "Amenities": {
+        "subtitle": "Équipements de l'hôtel",
+        "title": "Tout ce dont vous avez besoin pour un séjour parfait.",
+        "a1_title": "Suites vue océan",
+        "a1_desc": "Réveillez-vous avec des vues panoramiques sur l'Atlantique depuis votre balcon privé.",
+        "a2_title": "Piscines extérieures",
+        "a2_desc": "Trois piscines chauffées entourées de palmiers luxuriants et de la brise marine.",
+        "a3_title": "Restauration",
+        "a3_desc": "Savourez une cuisine marocaine et internationale dans notre restaurant sur le toit.",
+        "a4_title": "Spa & Bien-être",
+        "a4_desc": "Hammam complet, salles de massage et thérapies de bien-être pour restaurer votre corps."
+    },
+    "CTA": {
+        "title": "Votre évasion parfaite<br />vous attend chez <span class='text-emerald-light italic'>LIHOAS</span>.",
+        "desc": "Réservez votre séjour aujourd'hui et découvrez le meilleur d'Agadir — de nos chambres luxueuses à la plage immaculée de l'Atlantique.",
+        "button": "Réservez votre séjour"
+    },
+    "About": {
+        "intro_subtitle": "Introduction",
+        "intro_title": "Bienvenue chez <span class='text-emerald-light'>LIHOAS</span>",
+        "intro_desc": "Présentation de LIHOAS en tant qu'hôtel de luxe à Agadir offrant un confort de classe mondiale, un design architectural moderne et un service personnalisé exceptionnel. Vivez un séjour de luxe comme jamais auparavant.",
+        "exp_subtitle": "Notre Expérience",
+        "exp_title": "Redéfinir l'hospitalité à Agadir",
+        "e1_title": "Chambres Élégantes",
+        "e1_desc": "Conçues avec une esthétique moderne et un confort optimal à l'esprit.",
+        "e2_title": "Atmosphère Relaxante",
+        "e2_desc": "Une oasis de tranquillité pour se détendre et se ressourcer au cœur de la ville.",
+        "e3_title": "Service Personnalisé",
+        "e3_desc": "Notre personnel dévoué s'assure que tous vos besoins sont satisfaits en toute transparence.",
+        "e4_title": "Emplacement Idéal",
+        "e4_desc": "Parfaitement situé à Agadir pour explorer le meilleur de la ville.",
+        "why_title": "Pourquoi Nous Choisir",
+        "w1": "Emplacement de choix à Agadir",
+        "w2": "Chambres modernes et entièrement équipées",
+        "w3": "Réception 24/7",
+        "w4": "Wi-Fi gratuit",
+        "w5": "Petit-déjeuner inclus"
+    },
+    "LocalAttractions": {
+        "subtitle": "Explorer Agadir",
+        "title": "Découvrez la Ville Au-Delà de Nos Portes",
+        "desc": "Des ruines antiques perchées sur une colline aux plages dorées et aux souks animés — Agadir regorge d'expériences inoubliables.",
+        "p1_name": "Plage d'Agadir",
+        "p1_desc": "L'une des plages les plus emblématiques du Maroc — 10 km de sable doré, eaux atlantiques chaudes et clubs de plage.",
+        "p2_name": "Kasbah d'Agadir (Oufella)",
+        "p2_desc": "Les ruines d'une forteresse du XVIe siècle offrant des vues panoramiques époustouflantes sur la ville et l'océan.",
+        "p3_name": "Souk El Had",
+        "p3_desc": "Le plus grand marché du Maroc. Un voyage sensoriel à travers les épices, l'artisanat et les produits locaux frais.",
+        "p4_name": "Vallée des Oiseaux",
+        "p4_desc": "Un charmant parc urbain abritant des oiseaux exotiques et des jardins luxuriants — une escapade tranquille au cœur de la ville.",
+        "p5_name": "Crocoparc",
+        "p5_desc": "Une attraction unique avec plus de 300 crocodiles et des plantes tropicales exotiques dans un cadre marocain.",
+        "p6_name": "Marina d'Agadir",
+        "p6_desc": "Une promenade au bord de l'eau avec des restaurants, des boutiques et de superbes vues sur le port."
+    },
+    "Stays": {
+        "subtitle": "Hébergements",
+        "title": "Découvrez Votre Refuge",
+        "desc": "Choisissez parmi notre sélection de chambres méticuleusement conçues, offrant chacune des vues imprenables et tout ce dont vous avez besoin pour un séjour inoubliable à Agadir.",
+        "r1_title": "Suite Supérieure",
+        "r1_desc": "Le summum du luxe. Dispose d'une terrasse privée, d'un lit king-size et d'une vue panoramique sur l'océan Atlantique et la Kasbah d'Agadir.",
+        "r2_title": "Chambre Deluxe",
+        "r2_desc": "Spacieuse et lumineuse, équipée de commodités haut de gamme et d'un superbe balcon face à l'océan surplombant le littoral d'Agadir.",
+        "r3_title": "Chambre Standard",
+        "r3_desc": "Un refuge confortable et élégamment conçu — la base idéale pour découvrir ce qu'Agadir a de mieux à offrir.",
+        "per_night": "/ nuit",
+        "book_now": "Réservez"
+    },
+    "Booking": {
+        "title": "Réservez Votre Séjour",
+        "subtitle": "Réservez votre expérience de luxe au LIHOAS Agadir.",
+        "check_in": "Arrivée",
+        "check_out": "Départ",
+        "guests": "Invités",
+        "guest_single": "Invité",
+        "full_name": "Nom Complet",
+        "email": "Email",
+        "placeholder_name": "Jean Dupont",
+        "placeholder_email": "jean@example.com",
+        "submit": "Confirmer la Réservation",
+        "success_title": "Réservation Confirmée",
+        "success_desc": "Merci, {name}. Nous avons hâte de vous accueillir chez LIHOAS.",
+        "err_in": "La date d'arrivée est requise",
+        "err_out": "La date de départ est requise",
+        "err_out_before_in": "Le départ doit être après l'arrivée",
+        "err_name": "Le nom complet est requis",
+        "err_email": "L'email est requis",
+        "err_email_invalid": "Adresse email invalide"
+    }
+}

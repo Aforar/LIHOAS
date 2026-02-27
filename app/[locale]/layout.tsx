@@ -5,6 +5,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Navbar } from '@/components/layout/Navbar'
 import { BottomBar } from '@/components/layout/BottomBar'
+import { SiteFooter } from '@/components/layout/SiteFooter'
 import { SmoothScroll } from '@/components/layout/SmoothScroll'
 import '../globals.css'
 
@@ -38,6 +39,7 @@ export default async function RootLayout({
           <SmoothScroll>
             <Navbar />
             {children}
+            <SiteFooter />
             <BottomBar />
           </SmoothScroll>
         </NextIntlClientProvider>

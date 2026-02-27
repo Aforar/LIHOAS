@@ -59,16 +59,16 @@ export const HeroContent = () => {
 
             {/* Hero Content */}
             <div className="relative z-20 h-full w-full max-w-7xl mx-auto px-6 lg:px-12 flex flex-col justify-center">
-                <div className="max-w-3xl pt-20">
+                <div className="max-w-3xl pt-24 md:pt-20">
                     <ScrollElement direction="up" delay={0.2}>
-                        <h1 className="text-white text-6xl md:text-8xl lg:text-[100px] leading-[1.05] tracking-tight mb-8">
+                        <h1 className="text-white text-5xl md:text-8xl lg:text-[100px] leading-[1.1] md:leading-[1.05] tracking-tight mb-6 md:mb-8">
                             <span dangerouslySetInnerHTML={{ __html: t.raw('headline') }} />
                             <span className="text-emerald-light">LIHOAS</span>
                         </h1>
                     </ScrollElement>
 
                     <ScrollElement direction="up" delay={0.4}>
-                        <p className="text-xl md:text-2xl text-text-muted mb-12 max-w-xl font-light leading-relaxed">
+                        <p className="text-lg md:text-2xl text-text-muted mb-8 md:mb-12 max-w-xl font-light leading-relaxed">
                             {t('subheadline')}
                         </p>
                     </ScrollElement>

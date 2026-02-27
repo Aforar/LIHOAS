@@ -11,17 +11,17 @@ export default function AboutPage() {
     return (
         <main className="flex min-h-screen flex-col font-sans pt-32 pb-24">
             {/* Intro Section */}
-            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mb-32">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mb-24 md:mb-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     <div>
                         <ScrollElement direction="left" delay={0.2}>
                             <h2 className="text-sm font-sans tracking-[0.2em] text-neon uppercase mb-6">{t('intro_subtitle')}</h2>
                         </ScrollElement>
                         <ScrollElement direction="left" delay={0.3}>
-                            <h1 className="text-5xl md:text-7xl font-serif leading-tight mb-8 drop-shadow-lg text-white" dangerouslySetInnerHTML={{ __html: t.raw('intro_title') }} />
+                            <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif leading-tight mb-6 md:mb-8 drop-shadow-lg text-white" dangerouslySetInnerHTML={{ __html: t.raw('intro_title') }} />
                         </ScrollElement>
                         <ScrollElement direction="left" delay={0.4}>
-                            <p className="text-xl text-text-muted leading-relaxed mb-8 font-light">
+                            <p className="text-lg md:text-xl text-text-muted leading-relaxed mb-8 font-light">
                                 {t('intro_desc')}
                             </p>
                         </ScrollElement>
@@ -34,7 +34,7 @@ export default function AboutPage() {
                         </ScrollElement>
                     </div>
 
-                    <ScrollElement direction="up" delay={0.4} className="h-[500px] lg:h-[700px] w-full relative rounded-2xl overflow-hidden group">
+                    <ScrollElement direction="up" delay={0.4} className="h-[400px] md:h-[500px] lg:h-[700px] w-full relative rounded-2xl overflow-hidden group mt-8 lg:mt-0">
                         <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-[1.05]" style={{ backgroundImage: "url('/images/about-intro.jpg')" }}></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-green-950 via-green-950/20 to-transparent"></div>
                     </ScrollElement>
@@ -42,13 +42,13 @@ export default function AboutPage() {
             </section>
 
             {/* Our Experience */}
-            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mb-32">
-                <div className="text-center mb-16">
+            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mb-24 md:mb-32">
+                <div className="text-center mb-12 md:mb-16">
                     <ScrollElement direction="up" delay={0.2}>
                         <h2 className="text-sm font-sans tracking-[0.2em] text-neon uppercase mb-6">{t('exp_subtitle')}</h2>
                     </ScrollElement>
                     <ScrollElement direction="up" delay={0.3}>
-                        <h3 className="text-4xl md:text-5xl font-serif text-white">{t('exp_title')}</h3>
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif text-white">{t('exp_title')}</h3>
                     </ScrollElement>
                 </div>
 
@@ -74,10 +74,10 @@ export default function AboutPage() {
 
             {/* Why Choose Us */}
             <section className="relative px-6 lg:px-12 max-w-4xl mx-auto w-full">
-                <ScrollElement direction="up" delay={0.2} className="bg-green-900/30 border border-emerald-light/20 rounded-3xl p-10 md:p-16 relative overflow-hidden">
+                <ScrollElement direction="up" delay={0.2} className="bg-green-900/30 border border-emerald-light/20 rounded-3xl p-8 md:p-10 lg:p-16 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-neon/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2"></div>
 
-                    <h2 className="text-3xl font-serif text-white mb-8">{t('why_title')}</h2>
+                    <h2 className="text-2xl md:text-3xl font-serif text-white mb-6 md:mb-8">{t('why_title')}</h2>
 
                     <ul className="space-y-6">
                         {[
@@ -87,8 +87,8 @@ export default function AboutPage() {
                             t('w4'),
                             t('w5')
                         ].map((bullet, i) => (
-                            <li key={i} className="flex items-center gap-4 text-text-muted text-lg">
-                                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-neon/20 text-neon">
+                            <li key={i} className="flex items-center gap-4 text-text-muted text-base md:text-lg">
+                                <span className="flex-shrink-0 flex items-center justify-center w-6 h-6 rounded-full bg-neon/20 text-neon">
                                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
@@ -101,16 +101,16 @@ export default function AboutPage() {
             </section>
 
             {/* Local Agadir Attractions */}
-            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mt-32 border-t border-white/5 pt-24">
-                <div className="text-center mb-16">
+            <section className="relative px-6 lg:px-12 max-w-7xl mx-auto w-full mt-24 md:mt-32 border-t border-white/5 pt-16 md:pt-24">
+                <div className="text-center mb-12 md:mb-16">
                     <ScrollElement direction="up" delay={0.1}>
                         <h2 className="text-sm font-sans tracking-[0.2em] text-neon uppercase mb-6">{tLocal('subtitle')}</h2>
                     </ScrollElement>
                     <ScrollElement direction="up" delay={0.2}>
-                        <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">{tLocal('title')}</h3>
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif text-white mb-6">{tLocal('title')}</h3>
                     </ScrollElement>
                     <ScrollElement direction="up" delay={0.3}>
-                        <p className="text-lg text-text-muted font-light max-w-2xl mx-auto">{tLocal('desc')}</p>
+                        <p className="text-base md:text-lg text-text-muted font-light max-w-2xl mx-auto">{tLocal('desc')}</p>
                     </ScrollElement>
                 </div>
 

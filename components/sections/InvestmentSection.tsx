@@ -46,17 +46,17 @@ export const InvestmentSection = () => {
     ];
 
     return (
-        <section id="amenities" className="relative py-32 bg-[#05110a] text-white">
+        <section id="amenities" className="relative py-24 md:py-32 bg-[#05110a] text-white overflow-hidden">
             {/* Subtle Glow */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon/5 rounded-full blur-[120px] pointer-events-none" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-neon/5 rounded-full blur-[80px] md:blur-[120px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
-                <div className="text-center mb-20">
+                <div className="text-center mb-16 md:mb-20">
                     <ScrollElement direction="up" delay={0.2}>
-                        <h2 className="text-sm font-sans tracking-[0.2em] text-neon uppercase mb-6">{t('subtitle')}</h2>
+                        <h2 className="text-sm font-sans tracking-[0.2em] text-neon uppercase mb-4 md:mb-6">{t('subtitle')}</h2>
                     </ScrollElement>
                     <ScrollElement direction="up" delay={0.3}>
-                        <h3 className="text-4xl md:text-5xl font-serif leading-tight max-w-2xl mx-auto">
+                        <h3 className="text-3xl md:text-5xl font-serif leading-tight max-w-2xl mx-auto">
                             {t('title')}
                         </h3>
                     </ScrollElement>

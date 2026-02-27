@@ -46,11 +46,11 @@ export const SiteFooter = () => {
                 {/* Divider */}
                 <div className="border-t border-white/5 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs font-sans text-text-muted">
                     <span>© {new Date().getFullYear()} LIHOAS. All rights reserved.</span>
-                    <span>
-                        Developed by{' '}
-                        <a href="mailto:aforar.business@gmail.com" className="text-neon hover:underline">Aforar</a>
-                        {' '}&amp;{' '}
-                        <span className="text-white/60">Abdelmalek Mazouzi</span>
+                    <span className="text-white/60">
+                        Developed by Abdelmalek Mazouzi —{' '}
+                        <a href="mailto:aforar.business@gmail.com" className="text-neon hover:underline">
+                            aforar.business@gmail.com
+                        </a>
                     </span>
                 </div>
             </div>

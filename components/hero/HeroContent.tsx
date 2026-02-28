@@ -2,7 +2,7 @@
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
 import { Link } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { GlassButton } from "../ui/GlassButton";
 import { ScrollElement } from "../ui/ScrollElement";
 
@@ -19,11 +19,12 @@ const ShaderGradient = dynamic(
 
 export const HeroContent = () => {
     const t = useTranslations('Hero');
+    const locale = useLocale();
 
     return (
         <section className="relative h-screen w-full overflow-hidden bg-green-950">
             {/* 3D Background */}
-            <div className="absolute inset-0 z-0 opactiy-90">
+            <div className={`absolute inset-0 z-0 opacity-90 pointer-events-none overflow-hidden transition-transform duration-1000 ${locale === 'ar' ? 'translate-x-[-15%] md:translate-x-[-30%]' : ''}`}>
                 <Suspense fallback={<div className="h-full w-full bg-green-950" />}>
                     <ShaderGradientCanvas
                         style={{ width: "100%", height: "100%", position: "absolute", top: 0, left: 0 }}

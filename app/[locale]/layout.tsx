@@ -13,8 +13,11 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'LIHOAS | Luxury Hotel in Agadir',
+  title: 'LIHOAS',
   description: 'Discover comfort, elegance, and unforgettable moments in the heart of Agadir.',
+  icons: {
+    icon: '/favicon.png',
+  }
 }
 
 export default async function RootLayout({

@@ -24,7 +24,7 @@ export const HeroContent = () => {
     return (
         <section className="relative h-screen w-full overflow-hidden bg-green-950">
             {/* 3D Background */}
-            <div className={`absolute inset-0 z-0 opacity-90 pointer-events-none overflow-hidden transition-transform duration-1000 ${locale === 'ar' ? 'translate-x-[-15%] md:translate-x-[-30%]' : ''}`}>
+            <div className={`absolute inset-0 z-0 opacity-90 pointer-events-none overflow-hidden transition-all duration-1000 origin-center ${locale === 'ar' ? 'translate-x-[-20%] md:translate-x-[-40%] scale-x-[-1]' : ''}`}>
                 <Suspense fallback={<div className="h-full w-full bg-green-950" />}>
                     <ShaderGradientCanvas
                         style={{ width: "100%", height: "100%", position: "absolute", top: 0, left: 0 }}

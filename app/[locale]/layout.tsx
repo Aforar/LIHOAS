@@ -7,6 +7,7 @@ import { Navbar } from '@/components/layout/Navbar'
 import { BottomBar } from '@/components/layout/BottomBar'
 import { SiteFooter } from '@/components/layout/SiteFooter'
 import { SmoothScroll } from '@/components/layout/SmoothScroll'
+import { CanvasCursor } from '@/components/ui/CanvasCursor'
 import '../globals.css'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -39,6 +40,7 @@ export default async function RootLayout({
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className="dark scroll-smooth">
       <body className={`${inter.variable} ${playfair.variable} antialiased selection:bg-neon selection:text-green-950 bg-green-950`}>
         <NextIntlClientProvider messages={messages}>
+          <CanvasCursor />
           <SmoothScroll>
             <Navbar />
             {children}

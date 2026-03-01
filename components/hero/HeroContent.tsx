@@ -76,12 +76,12 @@ export const HeroContent = () => {
 
                     <ScrollElement direction="up" delay={0.6}>
                         <div className="flex flex-col sm:flex-row gap-6">
-                            <Link href="/stays" className="inline-block">
+                            <Link href="/stays" className="block w-full sm:inline-block sm:w-auto">
                                 <GlassButton variant="primary" className="px-8 py-4 text-base tracking-widest uppercase items-center justify-center w-full">
                                     {t('bookNow')}
                                 </GlassButton>
                             </Link>
-                            <Link href="/stays" className="inline-block">
+                            <Link href="/stays" className="block w-full sm:inline-block sm:w-auto">
                                 <GlassButton variant="secondary" className="px-8 py-4 text-base tracking-widest uppercase items-center justify-center w-full">
                                     {t('explore')}
                                 </GlassButton>

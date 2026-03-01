@@ -26,8 +26,8 @@ export default function AboutPage() {
                             </p>
                         </ScrollElement>
                         <ScrollElement direction="left" delay={0.5}>
-                            <Link href="/stays" className="inline-block">
-                                <GlassButton variant="primary" className="px-8 py-3 text-base">
+                            <Link href="/stays" className="block w-full sm:inline-block sm:w-auto">
+                                <GlassButton variant="primary" className="px-8 py-3 text-base w-full md:w-auto">
                                     {tCTA('button')}
                                 </GlassButton>
                             </Link>

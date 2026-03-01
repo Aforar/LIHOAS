@@ -6,7 +6,7 @@ export const SiteFooter = () => {
     const locale = useLocale();
 
     return (
-        <footer className="relative w-full bg-green-950 border-t border-white/10 pb-24 md:pb-8">
+        <footer className="relative w-full bg-green-950 border-t border-white/10 pb-12 md:pb-24">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
                     {/* Brand */}

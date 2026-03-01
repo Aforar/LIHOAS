@@ -28,7 +28,7 @@ export const LocationSection = () => {
                 </ScrollElement>
 
                 <ScrollElement direction="up" delay={0.6}>
-                    <p className="text-xl text-text-muted font-light mb-12 max-w-2xl mx-auto">
+                    <p className="text-lg md:text-xl text-text-muted font-light mb-8 md:mb-12 max-w-2xl mx-auto px-4 md:px-0">
                         {t('desc')}
                     </p>
                 </ScrollElement>
